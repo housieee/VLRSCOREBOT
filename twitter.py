@@ -11,4 +11,3 @@ api = tweepy.Client(bearer_token=config.BT,
 def tweet(matchscore):
     api.create_tweet(text=matchscore)
 
-api.create_tweet(text='test')
